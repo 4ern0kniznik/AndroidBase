@@ -7,4 +7,5 @@
     <string name="temp">22\u00B0</string>
     <string name="default_city">Moscow</string>
     <string name="send">Send</string>
+    <string name="wind">Wind</string>
 </resources>
