@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="input">Enter you city</string>
+    <string name="city">Your city: %1$s</string>
+    <string name="dayNight">22\u00B0 / 16\u00B0</string>
+    <string name="sky">Cloudy</string>
+    <string name="temp">22\u00B0</string>
+    <string name="default_city">Moscow</string>
+    <string name="send">Send</string>
+</resources>
