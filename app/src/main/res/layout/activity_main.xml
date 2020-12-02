@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:gravity="center"
-        android:textColor="@android:color/white
+        android:textColor="@android:color/white"
         android:text="@string/dayNight"
         android:paddingBottom="10dp"/>
 
