@@ -3,70 +3,71 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/winter"
     android:orientation="vertical"
-    android:padding="50dp"
-    android:background="@drawable/winter">
+    android:padding="50dp">
 
 
     <TextView
         android:id="@+id/city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
         android:gravity="center"
+        android:text="@string/default_city"
         android:textColor="@android:color/black"
-        android:text="@string/default_city"/>
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/temp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="100sp"
         android:gravity="center"
+        android:text="@string/temp"
         android:textColor="@android:color/black"
-        android:text="@string/temp"/>
+        android:textSize="100sp" />
 
     <TextView
         android:id="@+id/sky"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
         android:gravity="center"
-        android:textColor="@android:color/black"
+        android:paddingBottom="10dp"
         android:text="@string/sky"
-        android:paddingBottom="10dp"/>
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/dayNight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
         android:gravity="center"
-        android:textColor="@android:color/white"
+        android:paddingBottom="10dp"
         android:text="@string/dayNight"
-        android:paddingBottom="10dp"/>
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/editText"
-        android:textSize="30sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/input"
         android:gravity="center"
+        android:hint="@string/input"
         android:inputType="text"
-        android:textColorHint="@android:color/white"/>
+        android:textColorHint="@android:color/white"
+        android:textSize="30sp"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send"
-        android:background="@color/colorButton" />
+        android:background="@color/colorButton"
+        android:text="@string/send" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
 </LinearLayout>
