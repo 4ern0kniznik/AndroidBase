@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="50dp"
-    android:background="@drawable/ed8b16935824215306a60b115b9b234b">
+    android:background="@drawable/winter">
 
 
     <TextView
