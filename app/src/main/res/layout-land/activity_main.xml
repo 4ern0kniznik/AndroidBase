@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,14 +9,16 @@
     android:padding="50dp">
 
     <RelativeLayout
+        android:id="@+id/Layout1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5">
+        android:layout_weight="0.5"
+        android:padding="30dp">
 
 
         <TextView
             android:id="@+id/city"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="5dp"
@@ -25,18 +28,21 @@
 
         <TextView
             android:id="@+id/temp"
-            android:layout_width="match_parent"
-            android:layout_height="238dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city"
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/temp"
             android:textColor="@android:color/black"
-            android:textSize="100sp" />
+            android:textSize="70sp"
+            tools:ignore="UnknownId" />
 
         <TextView
             android:id="@+id/sky"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/temp"
             android:gravity="center"
             android:padding="5dp"
             android:paddingBottom="10dp"
